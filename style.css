@@ -1,0 +1,86 @@
+body {background-color: #333333;
+margin: 0;
+font-family: Arial, sans-serif;}
+
+h4 {color: white;}
+
+.navbar {display: flex;
+justify-content: center;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;}
+
+.navbar a {color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;}
+
+.navbar a:hover {background-color: #575757;
+text-decoration: underline;}
+
+.content {color: white;
+padding-top: 140px; 
+text-align: center;}
+
+img {margin: 10px;}
+#home-header {position: fixed;
+top: 50px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #333333;
+z-index: 999;
+padding: 10px;
+font-size: 36px;
+color: white;}
+
+.donate-page {display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #333333;
+padding: 40px;
+font-family: Arial, sans-serif;}
+.donate-page h2 {color: #cc0000;
+text-align: center;}
+
+.donate-page form {background-color: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+max-width: 500px;
+width: 100%;}
+
+.donate-page label {display: block;
+margin-top: 15px;
+font-weight: bold;}
+
+.donate-page input {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;}
+
+.donate-page textarea {width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;}
+
+.donate-page button {margin-top: 20px;
+padding: 10px 20px;
+background-color: #cc0000;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;}
+
+.donate-page button:hover {background-color: #a00000;}
+
+.about-container {text-align: center;
+margin-top: 30px;}
+
+ul, ol {list-style: none;
+padding-left: 0;
+margin-left: 0;}
